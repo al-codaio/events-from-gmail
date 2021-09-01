@@ -1,4 +1,4 @@
-# Create Google Calendar events from sending yourself an email using Google Apps Script
+# Create Google Calendar events from sending yourself an email
 This [Google Apps Script](https://github.com/al-codaio/events-from-gmail/blob/main/create_gcal_events_from_gmail.js) allows you to create a Google Calendar event by sending yourself an email in Gmail. Unlike Gmail's [current feature](https://support.google.com/a/users/answer/9308677?hl=en) to create Google Calendar events, this script allows you to be on a mobile device.
 
 ## What this script does
