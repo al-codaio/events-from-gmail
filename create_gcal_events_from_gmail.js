@@ -1,12 +1,13 @@
 // Create Google Calendar events from sending an email in Gmail
 // Author: Al Chen (al@coda.io)
-// Last Updated: September 1st, 2021
+// Last Updated: September 3rd, 2021
 // See full writeup here: TBD
 
 //////////////// Setup and global variables ////////////////////////////////
 
 GMAIL_LABEL = 'EventsFromEmail'
 DEFAULT_EVENT_TIME = 30
+DATE_FORMAT = 'ROW' // US (m/d/y) or ROW (d/m/y)
 
 //////////////////////////////////////////////////////////////////////////// 
 
@@ -107,8 +108,15 @@ function calcDateTime(rawDate, rawTime, isAllDay) {
 // Get month, day, year from date with slash
 function parseDate(date) {
   var dateDetails = date.split("/")  
-  var month = parseInt(dateDetails[0].trim())
-  var day = parseInt(dateDetails[1].trim())
+  
+  // US or ROW date format
+  if (DATE_FORMAT == 'US') {
+    var month = parseInt(dateDetails[0].trim())
+    var day = parseInt(dateDetails[1].trim())  
+  } else {
+    var month = parseInt(dateDetails[1].trim())
+    var day = parseInt(dateDetails[0].trim())
+  }  
   var year = dateDetails[2] ? parseInt(dateDetails[2].trim()) : 2021  
   return [month, day, year]
 }
