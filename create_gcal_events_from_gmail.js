@@ -1,7 +1,7 @@
 // Create Google Calendar events from sending an email in Gmail
 // Author: Al Chen (al@coda.io)
-// Last Updated: September 3rd, 2021
-// See full writeup here: TBD
+// Last Updated: September 6th, 2021
+// See full writeup here: https://www.thekeycuts.com/dear-analyst-76-productivity-hack-for-creating-a-google-calendar-event-by-sending-yourself-an-email/
 
 //////////////// Setup and global variables ////////////////////////////////
 
