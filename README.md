@@ -53,4 +53,4 @@ The Google Calendar event will invite johndoe@gmail.com and janedoe@gmai.com as 
 - If you change timezones, you may need to [update](https://developers.google.com/apps-script/concepts/manifests#editing_a_manifest) the `appscript.json` file with the new timezone you're in. See this [Wikipedia article](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) (specifically the "TZ database name" column) for the proper formatting of timezone names.
 
 ## Tutorials
-Read the full write-up [here](http://www.tbd.com) on why I wrote this script and watch the video tutorial below to setup the script:
+Read the full write-up [here](https://www.thekeycuts.com/dear-analyst-76-productivity-hack-for-creating-a-google-calendar-event-by-sending-yourself-an-email) on why I wrote this script and watch the video tutorial below to setup the script:
