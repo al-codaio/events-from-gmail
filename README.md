@@ -55,3 +55,5 @@ The Google Calendar event will invite johndoe@gmail.com and janedoe@gmai.com as 
 
 ## Tutorials
 Read the full write-up [here](https://www.thekeycuts.com/dear-analyst-76-productivity-hack-for-creating-a-google-calendar-event-by-sending-yourself-an-email) on why I wrote this script and watch the video tutorial below to setup the script:
+
+[![create google calendar events from gmail](https://user-images.githubusercontent.com/1314187/132382848-4b6baa2e-6d9e-4efe-8e04-94f8e5b0d279.png)](https://www.youtube.com/watch?v=DbbT0zPGzVY)
