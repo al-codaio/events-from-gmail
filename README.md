@@ -45,6 +45,7 @@ The Google Calendar event will invite johndoe@gmail.com and janedoe@gmai.com as 
 <img src="https://user-images.githubusercontent.com/1314187/132148655-ed9f5737-7fa7-4849-ba7e-185d2ca48662.jpg" width="500"/>
 
 9. Set up a [time-driven trigger](https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers) so that the `getEmail` function runs every 10 minutes, 30 minutes, or whatever interval suits you (I set mine to every 15 minutes):
+<img src="https://user-images.githubusercontent.com/1314187/132265012-e5b62b75-a2a5-4999-9fc1-5569a9217eae.jpg" width="300"/>
 <img src="https://user-images.githubusercontent.com/1314187/132148877-2cd34e96-553c-405f-b87d-d9999bd9f86e.jpg" width="500"/>
 
 ## Notes & Caveats
@@ -54,3 +55,5 @@ The Google Calendar event will invite johndoe@gmail.com and janedoe@gmai.com as 
 
 ## Tutorials
 Read the full write-up [here](https://www.thekeycuts.com/dear-analyst-76-productivity-hack-for-creating-a-google-calendar-event-by-sending-yourself-an-email) on why I wrote this script and watch the video tutorial below to setup the script:
+
+[![create google calendar events from gmail](https://user-images.githubusercontent.com/1314187/132382848-4b6baa2e-6d9e-4efe-8e04-94f8e5b0d279.png)](https://www.youtube.com/watch?v=DbbT0zPGzVY)
