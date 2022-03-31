@@ -1,6 +1,6 @@
 // Create Google Calendar events from sending an email in Gmail
 // Author: Al Chen (al@coda.io)
-// Last Updated: September 6th, 2021
+// Last Updated: March 31st, 2022
 // See full writeup here: https://www.thekeycuts.com/dear-analyst-76-productivity-hack-for-creating-a-google-calendar-event-by-sending-yourself-an-email/
 
 //////////////// Setup and global variables ////////////////////////////////
@@ -108,6 +108,8 @@ function calcDateTime(rawDate, rawTime, isAllDay) {
 // Get month, day, year from date with slash
 function parseDate(date) {
   var dateDetails = date.split("/")  
+  const d = new Date();
+  let thisYear = d.getFullYear();
   
   // US or ROW date format
   if (DATE_FORMAT == 'US') {
