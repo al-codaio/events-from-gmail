@@ -119,7 +119,7 @@ function parseDate(date) {
     var month = parseInt(dateDetails[1].trim())
     var day = parseInt(dateDetails[0].trim())
   }  
-  var year = dateDetails[2] ? parseInt(dateDetails[2].trim()) : 2021  
+  var year = dateDetails[2] ? parseInt(dateDetails[2].trim()) : thisYear;  
   return [month, day, year]
 }
 
