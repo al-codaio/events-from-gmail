@@ -52,17 +52,16 @@ function parseMessage(lines) {
     var guests = lines[0].substring(3, lines[0].length)
     var joinDescription = [];
     for (var i = 1; i < lines.length; i++){
-  joinDescription.push(lines[i]);
-  var description = joinDescription.join("\n");
-}
-    
+      joinDescription.push(lines[i]);
+      var description = joinDescription.join("\n");
+    }  
   } else {
     var guests = '';
     var joinDescription = [];
     for (var i = 0; i < lines.length; i++){
-  joinDescription.push(lines[i]);
-  var description = joinDescription.join("\n");
-}
+      joinDescription.push(lines[i]);
+      var description = joinDescription.join("\n");
+    }
   }
   return [guests, description];
 }
