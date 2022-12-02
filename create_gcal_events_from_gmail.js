@@ -50,12 +50,20 @@ function parseEmail(subject, message) {
 function parseMessage(lines) {
   if (lines[0].toLowerCase().indexOf('cc:') != -1) {
     var guests = lines[0].substring(3, lines[0].length)
-    var description = lines[1].length > 1 ? lines[1] : ''
+    var joinDescription = [];
+    for (var i = 1; i < lines.length; i++){
+      joinDescription.push(lines[i]);
+      var description = joinDescription.join("\n");
+    }  
   } else {
-    var guests = ''
-    var description = lines[0]    
+    var guests = '';
+    var joinDescription = [];
+    for (var i = 0; i < lines.length; i++){
+      joinDescription.push(lines[i]);
+      var description = joinDescription.join("\n");
+    }
   }
-  return [guests, description]
+  return [guests, description];
 }
 
 function createEvent(eventTitle, startTime, endTime, isAllDay, optionalParams) {
